@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+body{ font-family: 'Roboto Condensed', sans-serif;     font-size: 16px;}
+.bannerBg1{ background-image: url("../images/bannerbg.jpg"); 
+ background-repeat: no-repeat;    background-position: top center; }
+.topnav {background-color: #5f98af;padding: 7px;}
+
+.fontNav{ color: #fff; font-size: 16px; text-decoration: underline; }
+.fontNav:hover{ color: #fff; text-decoration: none; }
+.fontNav a{ display: inline-block;  border-right: 1px solid #00597d; padding-right: 5px; padding-left: 5px; }
+.fontNav span{}
+.navtopButton{color: white;
+    margin-left: 5px;
+    padding: 5px 16px;
+    border: 2px solid white;
+    background-color: #00597d;border-radius: 1px; }
+    .getcard1 {
+
+    text-align: center;
+    font-size: 24px;
+    padding: 1.25% 5%;
+    color: white;
+    background-color: #00597d;
+    clear: both;
+    cursor: pointer;
+    font-weight: 500;font-family: 'Roboto', sans-serif;}
+    .desktopavailable {
+    	    color: #00597d;
+    float: left;
+    font-size: 17px !important;
+    font-weight: 700;
+    line-height: 1.2em;font-family: 'Roboto', sans-serif;
+}
+.desktopcall {
+    font-size: 17px !important;
+    font-weight: 700;
+    line-height: 1.2em; color: #00597d;font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-weight: 700;
+    color: #185a7d;
+    text-decoration: none;
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 17px;
+}
+#ISIMain p {
+    font-size: 16px;
+}
+p, li {
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    color: #666;
+    line-height: 1.4em;
+    font-weight: 500
+}
+b, strong {
+    font-weight: 500;
+    color: #185a7d;
+}
+#ISIcontent ul, #ISIMain ul {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.mt17{ margin-top: 17px; margin-bottom: 17px; }
+#footer {
+    border-top: 4px solid #5f98af;
+}
+.footertxt {
+    font-size: 12px !important;
+}
+.first {
+    margin-top: 0 !important;
+}	
+#ISIcontent a:link, #ISIcontent a:visited, #ISIMain a:link, #ISIMain a:visited {
+    color: #185a7d;
+}
+.desktop {
+    font-size: 20px !important;
+    font-weight: 500;
+    line-height: 1.2em;color: white;font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+}
+.caply{ margin-top: 30px; }
+
+
+@media (max-width: 575.98px) 
+ {  
+	.bannerBg1{background-position-y: 250px;}
+}
+
+
+
+
+
+/* Min width 
+**********************************/
+@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+
+/* Max width 
+**********************************/
+@media (max-width: 575.98px) { ... }
+
+@media (max-width: 767.98px) { ... }
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
+
+
+/* Max width 
+**********************************/
+@media (max-width: 575.98px) { ... }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }
